@@ -1,10 +1,10 @@
 import { Box, Breadcrumbs, Toolbar, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import AboutUs from "./about/aboutUs";
-import ChooseUs from "./about/ChooseUs";
-import Footer from "./Footer";
-import Team from "./about/Team";
-import AboutTestimonial from "./about/AboutTestimonial";
+import AboutUs from "./about/aboutUs.jsx";
+import ChooseUs from "./about/ChooseUs.jsx";
+import Footer from "./Footer.jsx";
+import Team from "./about/Team.jsx";
+import AboutTestimonial from "./about/AboutTestimonial.jsx";
 
 const About = () => {
   return (
