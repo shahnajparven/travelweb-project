@@ -13,7 +13,6 @@ const schema = yup.object({
   name: yup.string(),
   email: yup.string(),
   password: yup.string(),
-  // passage2: yup.string(),
 });
 
 const login = ({ anchor, setState }) => {

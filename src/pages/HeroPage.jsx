@@ -12,7 +12,6 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
-// import AccountCircle from "@mui/icons-material/AccountCircle";
 import "./HeroPage.css";
 import "../index.css";
 import CloseIcon from "@mui/icons-material/Close";
@@ -31,8 +30,8 @@ const drawerWidth = 240;
 
 const HeroPage = (props) => {
   const dispatch = useDispatch();
-  const { isLoggedIn, token } = useSelector((state) => state.auth);
-  console.log(token, "lkljkhj");
+  const { isLoggedIn } = useSelector((state) => state.auth);
+
   const [loggedinIcon, setLoggedinIcon] = React.useState(true);
 
   React.useEffect(() => {

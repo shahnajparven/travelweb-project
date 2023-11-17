@@ -1,4 +1,4 @@
-import { Suspense, useEffect } from "react";
+import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Spinner from "./components/Spinner";
@@ -9,23 +9,19 @@ import About from "./pages/About";
 import Destination from "./pages/destination/Destination";
 
 function App() {
-
-
-
   return (
-    <>   
-          <Topbar />
-          <HeroPage />
-          {/* {isLoggedIn && <UserOption />} */}
-          <Suspense fallback={<Spinner />}>
-            <Routes>
-              <Route index element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/destination" element={<Destination />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </Suspense>
-     
+    <>
+      <Topbar />
+      <HeroPage />
+      {/* {isLoggedIn && <UserOption />} */}
+      <Suspense fallback={<Spinner />}>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/destination" element={<Destination />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Suspense>
     </>
   );
 }
