@@ -18,14 +18,12 @@ const customer = [
   },
   {
     img: img1,
-    message:
-      "Lorembyfcgcftyftrdrsgbvjbkj",
+    message: "Lorembyfcgcftyftrdrsgbvjbkj",
     name: "jbhjhvhgvh",
   },
   {
     img: img1,
-    message:
-      "Lorembnbvhvhgvhgghcguyfuyfvufufgig",
+    message: "Lorembnbvhvhgvhgghcguyfuyfvufufgig",
     name: "jbhjhvhgvh",
   },
 ];
@@ -94,13 +92,23 @@ const Customer = () => {
                 Testimonial
               </Box>
               <Box fontSize={30} fontWeight={"bold"}>
-              What Our Customer</Box>
-              <Box fontSize={30} fontWeight={"bold"}>Says About Us</Box>
-              
+                What Our Customer
+              </Box>
+              <Box fontSize={30} fontWeight={"bold"}>
+                Says About Us
+              </Box>
             </Box>
 
-            <Box display="flex" justifyContent="center" alignItems={'center'} flexDirection={'column'} py={5}>
-              <Box fontSize={50} color={'#F39B0B'}>❞</Box>
+            <Box
+              display="flex"
+              justifyContent="center"
+              alignItems={"center"}
+              flexDirection={"column"}
+              py={5}
+            >
+              <Box fontSize={50} color={"#F39B0B"}>
+                ❞
+              </Box>
               <Box>{item.message}</Box>
               <Box>{item.name}</Box>
             </Box>

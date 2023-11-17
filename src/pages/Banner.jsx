@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { Box, Button, TextField, Typography } from "@mui/material";
+import { Box, Button, TextField } from "@mui/material";
 import img1 from "../assets/img3.jpg";
 import img3 from "../assets/product3.jpg";
 import "../index.css";

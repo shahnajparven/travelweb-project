@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-key */
-import React from "react";
 import { Box, Divider } from "@mui/material";
 import img1 from "../../assets/1.jpg";
 import img2 from "../../assets/2.jpg";
@@ -7,25 +6,12 @@ import img3 from "../../assets/3.jpg";
 import img4 from "../../assets/4.jpg";
 import img5 from "../../assets/5.jpg";
 import product3 from "../../assets/product3.jpg";
-import Carousel from "react-material-ui-carousel";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { styled } from "@mui/material/styles";
 import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
-import CardHeader from "@mui/material/CardHeader";
 import StarPurple500OutlinedIcon from "@mui/icons-material/StarPurple500Outlined";
-import Collapse from "@mui/material/Collapse";
-import Avatar from "@mui/material/Avatar";
-import IconButton from "@mui/material/IconButton";
-import { red } from "@mui/material/colors";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 
 import Slider from "react-slick";

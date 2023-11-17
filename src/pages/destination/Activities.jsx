@@ -1,9 +1,6 @@
-import React from "react";
+/* eslint-disable react/jsx-key */
+
 import { Box, Divider } from "@mui/material";
-import img1 from "../../assets/banner1.jpg";
-import img2 from "../../assets/banner4.jpg";
-import product3 from "../../assets/product3.jpg";
-import Carousel from "react-material-ui-carousel";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";

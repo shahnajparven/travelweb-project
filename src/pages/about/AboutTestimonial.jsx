@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { Box } from "@mui/material";
 import img1 from "../../assets/banner1.jpg";
 import Carousel from "react-material-ui-carousel";

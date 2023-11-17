@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Slider from "react-slick";
 import img1 from "../../assets/1.jpg";
 import img2 from "../../assets/2.jpg";
@@ -7,7 +8,6 @@ import img5 from "../../assets/5.jpg";
 import img6 from "../../assets/6.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { Box, Toolbar } from "@mui/material";
 
 const team = [

@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-key */
 import { Box, Divider } from "@mui/material";
-import product3 from "../../assets/product3.jpg";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";

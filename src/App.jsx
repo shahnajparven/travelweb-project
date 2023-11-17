@@ -7,9 +7,6 @@ import HeroPage from "./pages/HeroPage";
 import Topbar from "./pages/Topbar";
 import About from "./pages/About";
 import Destination from "./pages/destination/Destination";
-import { useDispatch, useSelector } from "react-redux";
-import UserOption from "./pages/user/UserOption";
-import { loginUser } from "./store/authSlice";
 
 function App() {
 

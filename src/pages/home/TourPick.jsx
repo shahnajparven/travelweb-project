@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import TourPicCard from "./TourPicCard";
 import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
 const item = [
