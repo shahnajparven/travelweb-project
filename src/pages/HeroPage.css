@@ -1,0 +1,72 @@
+.tolbar {
+  background-color: #ffffff;
+  z-index: 0 !important;
+}
+.navItem {
+  text-decoration: none;
+  color: #2d2727;
+}
+
+.navItem:focus{
+ color:#F39B0B;
+}
+
+.speedDialIcon {
+  width: 38px;
+  height: 38px;
+  border-radius: 80%;
+  z-index: 10;
+}
+.appbar {
+  z-index: 5 !important;
+  top: 40px !important;
+}
+.imgicon {
+  position: fixed;
+  z-index: 10 !important;
+}
+
+#createProductFormImage {
+  width: 100%;
+  overflow: auto;
+}
+
+#createProductFormImage > img {
+  width: 3vmax;
+  margin: 0 0.5vmax;
+}
+.productCard {
+  text-decoration: none;
+}
+
+.Carousel {
+  height: 60vh;
+  width: 100%;
+}
+.CarouselImage {
+  height: 70vh;
+  width: 100%;
+}
+
+.detailsBlock-3-1 {
+  display: flex;
+  align-items: center;
+}
+
+.detailsBlock-3-1-1 > input {
+  padding: 0.5vmax;
+  width: 1vmax;
+  text-align: center;
+  outline: none;
+  font: 400 0.8vmax "Roboto";
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
+
+

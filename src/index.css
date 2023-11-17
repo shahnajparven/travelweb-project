@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lato&display=swap");
+:root {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* yellow: #F39B0B
+gray: #E9EEEE
+text: #2D2727
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Edu TAS Beginner', cursive; */
+  font-family: "Josefin Sans", sans-serif;
+}
+.banner {
+  position: relative;
+  height: auto;
+  /* min-height: 90vh; */
+  width: 100%;
+  background-color: #09235a;
+}
+.container {
+  padding: 0 5rem 0 5rem;
+}
+.logo {
+  font-family: "Edu TAS Beginner", cursive;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.font {
+  font-family: "Edu TAS Beginner", cursive;
+}
+.booking {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/banner4.jpg");
+}
+.copyright a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.effect {
+  transition: 0.3s;
+}
+.effect:hover {
+  transform: rotate(30deg);
+}
+
+.dynamic-txt b {
+  position: relative;
+  font-size: 3rem;
+}
+.dynamic-txt b::after {
+  content: "";
+  position: absolute;
+  top: -5%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(33deg, #09235a 0%, #09235a 100%);
+  border-left: 2px solid #fca61f;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.aboutPage {
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/banner4.jpg");
+}
+.destination {
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/banner4.jpg");
+}
+.hoverpic{
+  height: 150px;
+  width: 30%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/banner4.jpg");
+}
