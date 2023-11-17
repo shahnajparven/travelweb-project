@@ -42,9 +42,6 @@ const HeroPage = (props) => {
     }
   }, [dispatch, isLoggedIn]);
 
-  // const logoutUser=()=>{
-  //   dispatch(logout());
-  // }
   const [open, setOpen] = React.useState(false);
 
   const options = [
