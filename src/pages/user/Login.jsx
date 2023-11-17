@@ -187,44 +187,7 @@ const login = ({ anchor, setState }) => {
                   <Typography py={4} fontSize={20} fontWeight={600}>
                     Register Your Account
                   </Typography>
-                  {/* <Box py={1}>
-                    <Controller
-                      name="first_name"
-                      control={control}
-                      render={({ field }) => (
-                        <Box minWidth={150}>
-                          <TextField
-                            error
-                            id="standard-error-helper-text"
-                            //   label="Error"
-                            placeholder="Enter Your Name"
-                            //   helperText="Incorrect entry."
-                            variant="standard"
-                            {...field}
-                          />
-                        </Box>
-                      )}
-                    />
-                  </Box>
-                  <Box py={1}>
-                    <Controller
-                      name="last_name"
-                      control={control}
-                      render={({ field }) => (
-                        <Box minWidth={150}>
-                          <TextField
-                            error
-                            id="standard-error-helper-text"
-                            //   label="Error"
-                            placeholder="Enter Your Name"
-                            //   helperText="Incorrect entry."
-                            variant="standard"
-                            {...field}
-                          />
-                        </Box>
-                      )}
-                    />
-                  </Box> */}
+                  
                   <Box py={1}>
                     <Controller
                       name="email"
@@ -263,25 +226,7 @@ const login = ({ anchor, setState }) => {
                       )}
                     />
                   </Box>
-                  {/* <Box py={2}>
-            <Controller
-              name="profilePic"
-              control={control}
-              render={({ field }) => (
-                <Box minWidth={150}>
-                  <TextField
-                    error
-                    id="standard-error-helper-text"
-                    //   label="Error"
-                    placeholder="Confirm Password"
-                    //   helperText="Incorrect entry."
-                    variant="standard"
-                    {...field}
-                  />
-                </Box>
-              )}
-            />
-          </Box> */}
+                  
                   <Box my={2} display="flex" gap={1.5}>
                     <Button
                       type="submit"
