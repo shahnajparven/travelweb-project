@@ -33,9 +33,9 @@ const About = () => {
           </Box>
         </Box>
       </Box>
-      <Box>
+      {/* <Box>
         <AboutUs />
-      </Box>
+      </Box> */}
       <Box>
         <ChooseUs />
       </Box>
